@@ -1,10 +1,10 @@
 package com.anshumanprajapati.designpattern.structural.proxydesignpattern;
 
-public interface EmployeeTable {
+public interface EmployeeDao {
 
-    public void create();
+    public void create(String client, Employee employee) throws Exception;
 
-    public  void delete();
+    public  void delete(String client, int employeeId) throws Exception;
 
-    public Employee get();
+    public Employee get(String client, int employeeId) throws Exception;
 }

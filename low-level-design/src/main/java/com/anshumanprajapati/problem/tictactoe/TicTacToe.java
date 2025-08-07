@@ -1,4 +1,4 @@
-package problem.tictactoe;
+package com.anshumanprajapati.problem.tictactoe;
 
 import java.util.Scanner;
 

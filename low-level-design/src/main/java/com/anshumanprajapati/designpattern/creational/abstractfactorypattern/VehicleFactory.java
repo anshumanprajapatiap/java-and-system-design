@@ -1,4 +1,5 @@
 package com.anshumanprajapati.designpattern.creational.abstractfactorypattern;
 
-public class VehicleFactory {
+public interface VehicleFactory {
+    Vehicle getVehicle(String input);
 }

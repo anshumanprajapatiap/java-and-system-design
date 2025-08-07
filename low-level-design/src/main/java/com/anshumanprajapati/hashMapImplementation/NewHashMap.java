@@ -1,4 +1,4 @@
-package hashMapImplementation;
+package com.anshumanprajapati.hashMapImplementation;
 
 
 public class NewHashMap<K, V> {
@@ -90,6 +90,7 @@ public class NewHashMap<K, V> {
 	        map.put(6, "how");
 	        map.put(7, "are");
 	        map.put(8, "you");
+		    map.put(8, "newyou");
 	        map.put(9, "friends");
 	        map.put(10, "?");
 

@@ -24,7 +24,7 @@ public class EmailAleartObserver implements NotificationAlertObserver{
 	private void sendEmail(String emailId, String string) {
 		// TODO Auto-generated method stub
 		
-		System.out.println("Emial has been send to " + emailId);
+		System.out.println("Email has been send to " + emailId);
 		
 	}
 	

@@ -1,4 +1,4 @@
-package solid.lsp;
+package com.anshumanprajapati.solid.lsp;
 
 import java.util.*;
 

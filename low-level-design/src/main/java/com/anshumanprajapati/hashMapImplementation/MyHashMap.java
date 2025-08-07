@@ -1,4 +1,4 @@
-package hashMapImplementation;
+package com.anshumanprajapati.hashMapImplementation;
 
 
 public class MyHashMap<K,V> {
@@ -102,7 +102,7 @@ public class MyHashMap<K,V> {
 
     public static void main(String args[]) {
 
-        MyHashMap<Integer, String> map = new MyHashMap<>(7);
+        MyHashMap<Integer, String> map = new MyHashMap<>(4);
         map.put(1, "hi");
         map.put(2, "my");
         map.put(3, "name");

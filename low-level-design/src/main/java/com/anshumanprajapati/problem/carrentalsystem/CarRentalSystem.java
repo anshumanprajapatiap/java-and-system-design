@@ -1,4 +1,7 @@
 package com.anshumanprajapati.problem.carrentalsystem;
 
-public class CarRentalStystem {
+public class CarRentalSystem {
+    public static void main(String[] args) {
+
+    }
 }

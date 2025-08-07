@@ -1,4 +1,6 @@
 package com.anshumanprajapati.designpattern.creational.abstractfactorypattern;
 
-public class Vehicle {
+public interface Vehicle {
+
+    public int notOfWheels();
 }

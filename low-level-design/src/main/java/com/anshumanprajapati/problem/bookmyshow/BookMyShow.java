@@ -1,8 +1,9 @@
-package com.anshumanprajapati.problem.bookmyshow.domain.event;
+package com.anshumanprajapati.problem.bookmyshow;
+
+import com.anshumanprajapati.problem.bookmyshow.handler.BookMyShowCommandHandler;
 
 public class BookMyShow {
 
     public static void main(String[] args) {
-        
     }
 }
