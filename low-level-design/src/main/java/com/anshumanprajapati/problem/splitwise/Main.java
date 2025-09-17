@@ -15,6 +15,8 @@ public class Main {
         splitwise.makeTransaction("A", "B", 10);
         splitwise.makeTransaction("A", "B", 10);
         splitwise.makeTransaction("B", "C", 20);
+        splitwise.makeTransaction("B", "C", 20);
+        splitwise.makeTransaction("C", "A", 20);
 
         splitwise.printCurrentBalance();
 

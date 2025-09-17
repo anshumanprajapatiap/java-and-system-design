@@ -3,24 +3,20 @@ package com.anshumanprajapati.designpattern.creational.singleton;
 
 public class DatabaseConnection {
 
-    volatile MyConnection connection;
-    String databaseName;
+    static private volatile MyConnection connection;
 
-    DatabaseConnection(String databaseName){
-        this.databaseName = databaseName;
+    private DatabaseConnection(String databaseName){
+        connection = new MyConnection(databaseName);
     }
 
-    MyConnection getConnection(){
+    public static MyConnection getConnection(String databaseName){
         if(connection==null) {
             synchronized (MyConnection.class) {
                 if (connection == null) {
-                    connection = new MyConnection(databaseName);
+                    new DatabaseConnection(databaseName);
                 }
             }
         }
         return connection;
     }
-
-
-
 }
