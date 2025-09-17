@@ -11,6 +11,7 @@
     <modules>
         <module>low-level-design</module>
         <module>high-level-design</module>
+        <module>interview-experience</module>
     </modules>
 
     <properties>

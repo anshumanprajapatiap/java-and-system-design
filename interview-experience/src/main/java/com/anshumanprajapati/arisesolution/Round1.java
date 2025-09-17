@@ -1,6 +1,6 @@
-package com.anshumanprajapati;
+package com.anshumanprajapati.arisesolution;
 
-public class PrintNumber {
+public class Round1 {
 
     private static void increment(int[] arr){
         arr[0]++;
